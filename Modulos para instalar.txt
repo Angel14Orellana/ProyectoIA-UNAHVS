@@ -1,0 +1,17 @@
+Tener instalado python (versiones 3.7-3.10)
+Tenes instalado git
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+
+pip install opencv-python
+
+#Aveces necesita Windows+R -> regedit -> y cambiar el valor de Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\FileSystem\LongPathsEnabled de 0 a 1
+pip install tensorflow
+
+pip install mediapipe
+#Aveces para mediapipe se necesita
+https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170
+pip install msvc-runtime
+
+pip install scikit-learn==0.22.0
